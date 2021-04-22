@@ -60,7 +60,7 @@
           </span>
           <span
             class="icon"
-            @click.stop="action(file, 'down')"
+            @click.stop="download"
             v-if="file.mimeType !== 'application/vnd.google-apps.folder'"
           >
             <i
@@ -89,6 +89,9 @@ export default {
     }
   },
   computed: {
+    download() {
+      action(this.file, 'down')
+    },
     columns() {
       return [
         { name: this.$t("list.title.file"), style: "" },

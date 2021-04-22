@@ -57,5 +57,8 @@
   "error": {
     "shortcut_not_down": "Shortcut can't open/download",
     "401": "Unauthorized, please login"
+  },
+  "download":{
+    "success": "Download Started"
   }
 }

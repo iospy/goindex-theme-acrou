@@ -59,6 +59,7 @@
     "401": "Unauthorized, please login"
   },
   "download":{
-    "success": "Download Started"
+    "success": "Download Started",
+    "error": "Oops! Can't download file at this moment"
   }
 }
